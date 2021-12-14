@@ -1,0 +1,32 @@
+.container {
+  margin: 10px auto 50px;
+  display: block;
+
+  table {
+    text-align: left;
+    font-size: 0.875rem;
+    border-collapse: collapse;
+    width: 100%;
+
+    th {
+      color: var(--blue-600)
+    }
+
+    th, td {
+      padding: 10px 20px;
+      border-bottom: solid 1px var(--gray-300)
+    }
+
+    td:last-child, th:last-child {
+      text-align: center;
+    }
+
+    .active {
+      background: var(--green-200);
+    }
+  }
+  
+  p {
+    margin-top: 60px
+  }
+}

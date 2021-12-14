@@ -1,0 +1,28 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.content {
+  
+  .result {
+    width: 350px;
+    margin: 0 auto 40px;
+    background: var(--blue-600);
+    padding: 1px 20px;
+    border-radius: 10px;
+    
+    p {
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+      
+      & + p {
+        font-size: 2rem;
+        font-weight: 900;
+        border-top: solid 1px white;
+        padding-top: 20px;
+      }
+    }
+  }
+}

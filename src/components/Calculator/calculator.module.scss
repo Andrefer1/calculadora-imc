@@ -1,0 +1,50 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.content {
+  form {
+    background: var(--gray-100);
+  border-radius: 15px;
+  padding: 20px 30px 40px;
+  margin: 40px auto;
+
+    div {
+      margin-top: 20px;
+      
+      span:first-child {
+        display: block;
+        margin-bottom: 8px;
+      }
+    }
+
+    input {
+      border: 0px;
+      border-radius: 5px;
+      height: 40px;
+      width: 95%;
+      padding-left: 15px;
+    }
+  }
+
+  .result {
+    margin: 0 auto 40px;
+    background: var(--blue-600);
+    padding: 1px 20px;
+    border-radius: 10px;
+    
+    p {
+      color: var(--white);
+      text-align: center;
+      font-size: 1.5rem;
+      
+      & + p {
+        font-size: 2rem;
+        font-weight: 900;
+        border-top: solid 1px var(--white);
+        padding-top: 20px;
+      }
+    }
+  }
+}

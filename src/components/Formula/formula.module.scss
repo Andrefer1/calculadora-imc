@@ -1,0 +1,33 @@
+.container {
+  font-weight: bold;
+  position: relative;
+  margin: 0 auto 30px;
+  max-width: 200px;
+  text-align: center;
+
+  h3 {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px; 
+  background: var(--blue-600);
+  color: var(--white);
+  padding: 10px 15px;
+  border-radius: 10px;
+  
+  div:first-child {
+    position: relative;
+    margin-right: 5px;
+  }
+
+  hr {
+    border-color: var(--white)
+  }
+}
